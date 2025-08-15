@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Arizonia&family=Calligraffitti&family=Grechen+Fuemen&family=Just+Another+Hand&family=Kaushan+Script&family=Kolker+Brush&family=Lobster&family=Loved+by+the+King&family=Mr+Dafoe&family=News+Cycle:wght@400;700&family=Over+the+Rainbow&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vujahday+Script&family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -13,14 +13,14 @@ body {
 }
 
 .apresentacao {
-    margin: 5%;
+    margin: 8% 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo {
-    width: 715px;
+    width: 620px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -29,6 +29,7 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Kaushan Script', cursive;
+    text-align: center;
 }
 
 .titulo-destaque {
@@ -38,22 +39,46 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
 }
 
 .apresentacao__links{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0% 12%;
+    gap: 20px;
 }
 
 .apresentacao__links__link {
-    background-color: #b321a5;
-    width: 280px;
+    /* background-color: #b321a5; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #b321a5;
+    width: 220px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #F6F6F6;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #303030;
+}
+
+.apresentacao__links__link__img {
+    width: 34px;
 }
