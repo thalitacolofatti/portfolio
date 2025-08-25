@@ -9,6 +9,9 @@
 
     --fonte-primaria: 'Kaushan Script', cursive;
     --fonte-segundaria: 'Roboto', sans-serif;
+    --fonte-tamanho-titulo: 2.25rem;
+    --fonte-tamanho-texto-comum: 1.5rem;
+    --fonte-tamanho-texto-menor: 1.125rem;
 }
 
 * {
@@ -23,20 +26,21 @@ body {
 }
 
 .cabecalho {
-    padding: 3% 0% 0% 18%;
+    padding: 3% 7% 0% 7%;
 }
 
 .cabecalho__menu {
     display: flex;
-    gap: 60px;
+    justify-content: center;
+    gap: 4%;
 }
 
 .cabecalho__menu__link {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 2%;
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: var(--fonte-tamanho-texto-comum);
     font-weight: 600;
     color: var(--cor-terciaria);
     text-align: center;
@@ -48,10 +52,10 @@ body {
 }
 
 .apresentacao {
-    margin: 4% 8%;
+    padding: 4% 8% 2%;
     display: flex;
     align-items: flex-start;
-    gap: 80px;
+    gap: 6%;
 }
 
 .apresentacao__conteudo {
@@ -62,8 +66,9 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: var(--fonte-tamanho-titulo);
     font-family: var(--fonte-primaria);
+    text-align: center;
 }
 
 .titulo-destaque {
@@ -71,7 +76,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: var(--fonte-tamanho-texto-comum);
     font-family: var(--fonte-segundaria);
     text-align: justify;
     text-indent: 2em;
@@ -80,19 +85,19 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--fonte-tamanho-texto-comum);
     text-align: center;
 }
 
-.apresentacao__links{
+.apresentacao__links {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    padding: 0% 12%;
     gap: 20px;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -100,7 +105,7 @@ body {
     width: 220px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: var(--fonte-tamanho-texto-comum);
     font-weight: 600;
     font-family: var(--fonte-segundaria);
     padding: 21.5px 0;
@@ -116,16 +121,22 @@ body {
     width: 34px;
 }
 
-.foto-perfil{
+.apresentação__imagem {
     width: 20%;
     display: flex;
     align-content: flex-start;
 }
 
-.cartoes{
+.apresentacao__cartoes {
+    margin: 4% 8%;
+}
+
+.cartoes {
     display: flex;
     flex-wrap: wrap;
-    margin: 8%;
+    align-items: center;
+    padding: 0% 8%;
+    gap: 20px;
 }
 
 .cartao {
@@ -141,10 +152,12 @@ body {
 
 .imagem__cartao {
     background-color: var(--cor-inativa);
+    height: 110px;
     margin: 2%;
     padding: 2%;
     border-radius: 8px;
     text-align: center;
+    align-content: center;
     font-family: var(--fonte-segundaria);
 }
 
@@ -152,17 +165,55 @@ body {
     padding: 0% 2% 2%;
     color: var(--cor-primaria);
     font-family: var(--fonte-segundaria);
-    font-size: 18px;
+    font-size: var(--fonte-tamanho-texto-menor);
     font-weight: 400;
     text-align: center;
 }
 
 .rodape {
-    padding: 16px;
+    padding: 1%;
     color: var(--cor-segundaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-segundaria);
-    font-size: 18px;
+    font-size: var(--fonte-tamanho-texto-menor);
     font-weight: 400;
+}
+
+@media (max-width: 1200px) { 
+    .cabecalho {
+        padding: 8% 0% 3%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        padding: 6%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .apresentação__imagem {
+        padding-bottom: 3%;
+        width: 40%;
+    }
+
+   .apresentacao__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0% 0% 8%;
+        gap: 20px;
+    }
 }
