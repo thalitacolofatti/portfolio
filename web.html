@@ -9,14 +9,36 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="archviz.html">Archviz</a>
-            <a class="cabecalho__menu__link" href="games.html">Games</a>
-            <a class="cabecalho__menu__link" href="web.html">Web</a>
-            <a class="cabecalho__menu__link" href="design.html">Design</a>
-        </nav>
+        <div class="cabecalho__container">
+            <!-- Menu desktop -->
+            <nav class="desktop__menu">
+                <ul class="cabecalho__menu__lista">
+                    <li><a class="cabecalho__menu__link" href="index.html">Home</a></li>
+                    <li><a class="cabecalho__menu__link" href="about.html">Sobre</a></li>
+                    <li><a class="cabecalho__menu__link" href="archviz.html">Archviz</a></li>
+                    <li><a class="cabecalho__menu__link" href="games.html">Games</a></li>
+                    <li><a class="cabecalho__menu__link" href="web.html">Web</a></li>
+                    <li><a class="cabecalho__menu__link" href="design.html">Design</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menu mobile -->
+            <details class="nav mobile__menu">
+                <summary aria-label="Abrir menu">
+                    <span class="burger" aria-hidden="true"><i></i></span>
+                </summary>
+                <div class="cabecalho__panel" role="menu" aria-label="Navegação principal">
+                    <ul class="cabecalho__menu__lista">
+                        <li><a class="cabecalho__menu__link" href="index.html">Home</a></li>
+                        <li><a class="cabecalho__menu__link" href="about.html">Sobre</a></li>
+                        <li><a class="cabecalho__menu__link" href="archviz.html">Archviz</a></li>
+                        <li><a class="cabecalho__menu__link" href="games.html">Games</a></li>
+                        <li><a class="cabecalho__menu__link" href="web.html">Web</a></li>
+                        <li><a class="cabecalho__menu__link" href="design.html">Design</a></li>
+                    </ul>
+                </div>
+            </details>
+        </div>
     </header>
     <main class="apresentacao__cartoes">
         <section>

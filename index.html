@@ -9,14 +9,36 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="archviz.html">Archviz</a>
-            <a class="cabecalho__menu__link" href="games.html">Games</a>
-            <a class="cabecalho__menu__link" href="web.html">Web</a>
-            <a class="cabecalho__menu__link" href="design.html">Design</a>
-        </nav>
+        <div class="cabecalho__container">
+            <!-- Menu desktop -->
+            <nav class="desktop__menu">
+                <ul class="cabecalho__menu__lista">
+                    <li><a class="cabecalho__menu__link" href="index.html">Home</a></li>
+                    <li><a class="cabecalho__menu__link" href="about.html">Sobre</a></li>
+                    <li><a class="cabecalho__menu__link" href="archviz.html">Archviz</a></li>
+                    <li><a class="cabecalho__menu__link" href="games.html">Games</a></li>
+                    <li><a class="cabecalho__menu__link" href="web.html">Web</a></li>
+                    <li><a class="cabecalho__menu__link" href="design.html">Design</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menu mobile -->
+            <details class="nav mobile__menu">
+                <summary aria-label="Abrir menu">
+                    <span class="burger" aria-hidden="true"><i></i></span>
+                </summary>
+                <div class="cabecalho__panel" role="menu" aria-label="Navegação principal">
+                    <ul class="cabecalho__menu__lista">
+                        <li><a class="cabecalho__menu__link" href="index.html">Home</a></li>
+                        <li><a class="cabecalho__menu__link" href="about.html">Sobre</a></li>
+                        <li><a class="cabecalho__menu__link" href="archviz.html">Archviz</a></li>
+                        <li><a class="cabecalho__menu__link" href="games.html">Games</a></li>
+                        <li><a class="cabecalho__menu__link" href="web.html">Web</a></li>
+                        <li><a class="cabecalho__menu__link" href="design.html">Design</a></li>
+                    </ul>
+                </div>
+            </details>
+        </div>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -29,7 +51,7 @@
                     Crio e colaboro no desenvolvimento de jogos, aplicações e projetos visuais que 
                 conectam espaços, pessoas e tecnologia. 
                 Vamos transformar sua ideia em realidade?</p>
-            <h2 class="apresentacao__links__subtitulo">Pode visualizar alguns de meus projetos escolhendo no menu ou acessar minhas redes e showcases criativos:</h2>
+            <h2 class="apresentacao__links__subtitulo">Pode visualizar meus projetos principais escolhendo um tema no menu ou pode acessar minhas redes e showcases criativos:</h2>
             <div class="apresentacao__links">
                 <a class="apresentacao__links__navegacao" href="https://github.com/thalitacolofatti">
                     <img class="apresentacao__links__link__img" src="./assets/github-mark-white.png" alt="Logo Github">
