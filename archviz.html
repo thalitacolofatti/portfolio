@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archviz</title>
+    <title>Modelagem 3D e renders</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -12,14 +12,7 @@
         <div class="cabecalho__container">
             <!-- Menu desktop -->
             <nav class="desktop__menu">
-                <ul class="cabecalho__menu__lista">
-                    <li><a class="cabecalho__menu__link" href="index.html">Home</a></li>
-                    <li><a class="cabecalho__menu__link" href="about.html">Sobre</a></li>
-                    <li><a class="cabecalho__menu__link" href="archviz.html">Archviz</a></li>
-                    <li><a class="cabecalho__menu__link" href="games.html">Games</a></li>
-                    <li><a class="cabecalho__menu__link" href="web.html">Web</a></li>
-                    <li><a class="cabecalho__menu__link" href="design.html">Design</a></li>
-                </ul>
+                <menu-list></menu-list>
             </nav>
 
             <!-- Menu mobile -->
@@ -28,21 +21,14 @@
                     <span class="burger" aria-hidden="true"><i></i></span>
                 </summary>
                 <div class="cabecalho__panel" role="menu" aria-label="Navegação principal">
-                    <ul class="cabecalho__menu__lista">
-                        <li><a class="cabecalho__menu__link" href="index.html">Home</a></li>
-                        <li><a class="cabecalho__menu__link" href="about.html">Sobre</a></li>
-                        <li><a class="cabecalho__menu__link" href="archviz.html">Archviz</a></li>
-                        <li><a class="cabecalho__menu__link" href="games.html">Games</a></li>
-                        <li><a class="cabecalho__menu__link" href="web.html">Web</a></li>
-                        <li><a class="cabecalho__menu__link" href="design.html">Design</a></li>
-                    </ul>
+                    <menu-list></menu-list>
                 </div>
             </details>
         </div>
     </header>
     <main class="apresentacao__cartoes">
         <section>
-            <h1 class="apresentacao__conteudo__titulo">Archviz</h1>
+            <h1 class="apresentacao__conteudo__titulo">Modelagem 3D e renders</h1>
             <div class="cartoes">
                 <div class="cartao">
                     <img class="imagem__cartao" alt="Imagem a escolher">
@@ -75,5 +61,6 @@
     <footer class="rodape">
         <p>Desenvolvido por Thalita Colofatti</p>
     </footer>
+    <script src="menu.js"></script>
 </body>
 </html>
