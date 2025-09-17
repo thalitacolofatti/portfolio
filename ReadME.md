@@ -9,13 +9,28 @@ O projeto pode ser acessado neste link []().
 ## Tecnologias
 <div>
   <p> Principais: </p>
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
-  <p>Criado para a recorrencia do menu do cabeçalho: </p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-</div> 
+  ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
-Obs: Archviz foi arquivado do Menu até ter mais modelagens 3D e renders relevantes, podem ser adicionados posteriormente no link Design ou em um portfolio separado.
+  <p>Para a recorrencia do menu do cabeçalho: </p>
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+  <p>Utilizadoas nos projetos exibidos: </p>
+  ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
+  ![Maya](https://img.shields.io/badge/Maya-3DCA77?style=for-the-badge&logo=autodesk)
+  ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
+  ![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=for-the-badge&logo=Itch.io&logoColor=white)
+  ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
+  ![3ds Max](https://img.shields.io/badge/3ds_Max-A31F2F?style=for-the-badge&logo=autodesk)
+  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+  ![p5js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF)
+  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
+</div> 
 
 ## Autora
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/62973671?v=4" width=115><br><sub>Thalita Colofatti</sub>](https://github.com/thalitacolofatti) |  [<img loading="lazy" width=115>

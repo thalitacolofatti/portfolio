@@ -165,11 +165,10 @@ body {
 }
 
 .cartoes__subtitulo {
-    text-indent: 7rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: var(--fonte-tamanho-texto-comum);
-    text-indent: 9rem;
+    text-align: center;
     padding-bottom: 1rem;
 }
 
