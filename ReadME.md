@@ -9,12 +9,14 @@ O projeto pode ser acessado neste link []().
 ## Tecnologias
 <div>
   <p> Principais: </p>
-  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+
+  ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge)
+  ![CSS Badge](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff&style=for-the-badge)
   <br>
 
   <p>Para a recorrencia do menu do cabeçalho: </p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
   <br>
 
   <p>Utilizadoas nos projetos exibidos: </p>
@@ -36,4 +38,4 @@ O projeto pode ser acessado neste link []().
 
 Não copiar ou reproduzir códigos, conteúdos e links deste projeto.
 Logos baixados diretamente dos sites correspondentes nos links de Press kit ou uso da marca.
-Badges dos sites [shields.io](shields.io), [markdown-badges](https://ileriayo.github.io/markdown-badges/) e Gemini.
+Badges dos sites [Simple Badges](https://badges.pages.dev/?q=java), [markdown-badges](https://ileriayo.github.io/markdown-badges/) e Gemini.
