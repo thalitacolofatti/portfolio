@@ -4,7 +4,7 @@ Projeto de portfólio profissional para mostrar as técnicas e experiência da a
 
 O portfólio tem links no menu do cabeçalho que direcionam para a descrição da trajetória profissional da autora e para visualizações de projetos relevantes para cada tema. Na página inicial (Home) tem botões que direcionam para as principais redes proficionais da autora.
 
-O projeto pode ser acessado neste link []().
+O projeto pode ser acessado neste link [Portfolio](https://thalitacolofatti.github.io/portfolio/index.html).
 
 ## Tecnologias
 <div>
