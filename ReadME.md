@@ -11,24 +11,26 @@ O projeto pode ser acessado neste link []().
   <p> Principais: </p>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+  <br>
 
   <p>Para a recorrencia do menu do cabeçalho: </p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <br>
 
   <p>Utilizadoas nos projetos exibidos: </p>
   
   ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) 
-
-  <img src="https://img.shields.io/badge/Autodesk%20Maya-37A5CC?logo=autodeskmaya&logoColor=fff&style=flat" alt="Autodesk Maya Badge">
+  ![Autodesk Maya Badge](https://img.shields.io/badge/Autodesk%20Maya-37A5CC?logo=autodeskmaya&logoColor=fff&style=for-the-badge)
 
   ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
   ![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=for-the-badge&logo=Itch.io&logoColor=white)
+
   ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
   ![3ds Max](https://img.shields.io/badge/3ds_Max-A31F2F?style=for-the-badge&logo=autodesk)
+
   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
   ![p5js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF)
-  
-  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff&style=flat" alt="Figma Badge">
 
   ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
@@ -39,4 +41,4 @@ O projeto pode ser acessado neste link []().
 
 Não copiar ou reproduzir códigos, conteúdos e links deste projeto.
 Logos baixados diretamente dos sites correspondentes nos links de Press kit ou uso da marca.
-Badges dos sites [Simple Badges](https://badges.pages.dev/) e [markdown-badges](https://ileriayo.github.io/markdown-badges/)
+Badges dos sites [shields.io](shields.io), [markdown-badges](https://ileriayo.github.io/markdown-badges/) e Gemini.
